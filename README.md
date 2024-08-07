@@ -2,11 +2,13 @@
 
 ![Screenshot 2024-08-07 015858](https://github.com/user-attachments/assets/c308f90c-975f-4063-8c9a-30765ba4e8b2)
 
+<img src="https://github.com/user-attachments/assets/c308f90c-975f-4063-8c9a-30765ba4e8b2" alt="Screenshot 2024-08-07 015858" width="600">
+
 ![Screenshot 2024-08-07 015914](https://github.com/user-attachments/assets/57c4e1f8-2246-4232-842f-0f8a4ffc04f2)
 
 # Streamlit CSV-MySQL Chatbot
 
-This project is a Streamlit application that allows users to upload CSV files to a MySQL database and interact with the database using natural language queries. The application uses Langchain for handling SQL queries and OpenAI for processing and responding to user inputs.
+This project is a Streamlit application that allows users to upload CSV files to a MySQL database and interact with the database using natural language queries. The application uses Langchain for handling SQL queries and "Llama-3.1-70b-Versatile" llm for processing and responding to user inputs.
 
 ## Features
 
@@ -20,7 +22,7 @@ This project is a Streamlit application that allows users to upload CSV files to
 
 - Python 3.7 or higher
 - MySQL database
-- Environment variables set for database credentials
+- Environment variables set for database credentials and llm api key
 
 ### Installation
 
@@ -35,12 +37,15 @@ This project is a Streamlit application that allows users to upload CSV files to
     pip install -r requirements.txt
     ```
 
-3. Create a `.env` file in the project directory with your database credentials:
+3. Create a `.env` file in the project directory with your database credentials and ChatGroq api key :
     ```plaintext
     USER=your_db_user
     PASSWORD=your_db_password
     HOST=your_db_host
     DATABASE=your_db_name
+    ```
+    ```
+    GROQ_API_KEY=your_api_key
     ```
 
 ### Running the Application
@@ -59,9 +64,7 @@ This project is a Streamlit application that allows users to upload CSV files to
 
 ### Connecting to the Database
 
-1. Fill in your database credentials in the sidebar under "Settings".
-2. Click "Connect" to establish a connection to your MySQL database.
-3. A success message will appear if the connection is successful.
+. A success message will appear if the connection is successful.
 
 ### Interacting with the Chatbot
 
@@ -84,5 +87,5 @@ This project is a Streamlit application that allows users to upload CSV files to
 
 ## Contact
 
-For questions or issues, please open an issue in this repository or contact [younes.saw2001@gmail.com].
+For questions or issues, please open an issue in this repository or contact younes.saw2001@gmail.com.
 

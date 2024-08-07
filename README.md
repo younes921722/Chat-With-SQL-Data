@@ -73,6 +73,7 @@ This project is a Streamlit application that allows users to upload CSV files to
 
 - `app.py`: The main application file.
 - `requirements.txt`: List of required Python packages.
+- `core.py`: The backend file.
 
 ## Contributing
 

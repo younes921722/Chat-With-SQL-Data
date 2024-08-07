@@ -26,7 +26,7 @@ This project is a Streamlit application that allows users to upload CSV files to
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/streamlit-mysql-chatbot.git
+    https://github.com/younes921722/Chat-With-Tabular-Data.git
     cd streamlit-mysql-chatbot
     ```
 

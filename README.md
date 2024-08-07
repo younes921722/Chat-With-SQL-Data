@@ -8,6 +8,10 @@
 
 This project is a Streamlit application that allows users to upload CSV files to a MySQL database and interact with the database using natural language queries. The application uses Langchain for handling SQL queries and "Llama-3.1-70b-Versatile" llm for processing and responding to user inputs.
 
+# Architecture
+
+![Screenshot 2024-08-07 035846](https://github.com/user-attachments/assets/f0eb07f5-a595-4bed-ad48-669a80939fa7)
+
 ## Features
 
 - **Upload CSV Files**: Users can upload CSV files to a MySQL database. The application automatically creates or replaces tables based on the uploaded files.

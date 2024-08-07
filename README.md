@@ -2,8 +2,6 @@
 
 ![Screenshot 2024-08-07 015858](https://github.com/user-attachments/assets/c308f90c-975f-4063-8c9a-30765ba4e8b2)
 
-<img src="https://github.com/user-attachments/assets/c308f90c-975f-4063-8c9a-30765ba4e8b2" alt="Screenshot 2024-08-07 015858" width="600">
-
 ![Screenshot 2024-08-07 015914](https://github.com/user-attachments/assets/57c4e1f8-2246-4232-842f-0f8a4ffc04f2)
 
 # Streamlit CSV-MySQL Chatbot

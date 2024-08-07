@@ -1,9 +1,10 @@
+# Examples
 
-![Screenshot 2024-08-06 232116](https://github.com/user-attachments/assets/a88bedc8-2e79-44e7-95eb-ab630813cb1a)
+![Screenshot 2024-08-07 015858](https://github.com/user-attachments/assets/c308f90c-975f-4063-8c9a-30765ba4e8b2)
 
+![Screenshot 2024-08-07 015914](https://github.com/user-attachments/assets/57c4e1f8-2246-4232-842f-0f8a4ffc04f2)
 
-
-# Streamlit MySQL Chatbot
+# Streamlit CSV-MySQL Chatbot
 
 This project is a Streamlit application that allows users to upload CSV files to a MySQL database and interact with the database using natural language queries. The application uses Langchain for handling SQL queries and OpenAI for processing and responding to user inputs.
 

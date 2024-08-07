@@ -51,7 +51,8 @@ def get_sql_chain(db):
     
     Write only the MySQL query and nothing else. Do not wrap the MySQL query in any other text, not even backticks.
     
-    
+    DO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database.
+
     For example:
     Question: which 3 artists have the most tracks?
     MySQL Query: SELECT ArtistId, COUNT(*) as track_count FROM Track GROUP BY ArtistId ORDER BY track_count DESC LIMIT 3;
@@ -87,6 +88,7 @@ def get_response(user_query: str, db:SQLDatabase, chat_history:list):
     You are a data analyst at a company. You are interacting with a user who is asking you questions about the company's database.
     Based on the table schema below, question, sql query, and sql response, write a detailed natural language response with additional information.
     Stay clear, kind and professional.
+    DO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database.
     Be aware in the case of multiple queries : you have to run each querie individually and then return the result.
     <SCHEMA>{schema}</SCHEMA>
 

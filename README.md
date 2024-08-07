@@ -27,7 +27,7 @@ This project is a Streamlit application that allows users to upload CSV files to
 1. Clone the repository:
     ```bash
     https://github.com/younes921722/Chat-With-Tabular-Data.git
-    cd streamlit-mysql-chatbot
+    cd Chat-With-Tabular-Data.git
     ```
 
 2. Install the required packages:
